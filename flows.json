@@ -48,8 +48,26 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 440,
+        "x": 900,
         "y": 100,
         "wires": []
+    },
+    {
+        "id": "284456806ef252df",
+        "type": "function",
+        "z": "812682bbb8e6642c",
+        "name": "function 1",
+        "func": "msg.payload = \"Hello\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 100,
+        "wires": [
+            []
+        ]
     }
 ]
